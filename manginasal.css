@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+	background-color: #1a3317;
+}
+
+.mc h1{
+	color: white;
+	position: absolute;
+	margin-left: 52%;
+	top: 30%;
+	font-family: 'Staatliches', Sans Serif;
+	font-size: 75px;
+	text-align: right;
+}
+
+.mc {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+    background-position: center;
+    background-image: url('PHOTOS/BG_HOME.png');
+	
+}
+
+.mc-prod {
+	width: 100%;
+    background-position: center;
+    background-image: url('PHOTOS/BG_HOME.png');
+	background-repeat: repeat-y;
+	
+}
+
+.mc img {
+	position: relative;
+	width: 45%;
+	height: 93vh;
+	padding: 25px;
+}
+
+.Web img {
+    width: auto;
+    height: 70px;
+    vertical-align: middle; 
+}
+
+.navbar {
+	background-color: #2d9423;	
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar ul li {
+	padding: 8px 35px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.navbar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li a {
+	font-family: 'Red Hat Display', Sans Serif;
+	color: #baa21a;
+    text-decoration: none;
+    font-size: 25px;
+	font-weight: bold;
+    position: relative;
+    padding: 10px 50px;
+    display: inline-block;
+	box-shadow: ;
+    transition: color 0.3s ease, width 0.3s ease;
+}
+
+.navbar ul li a:hover {
+	color: #5c0606;
+}
+
+/*PRODUCT CSS SECTION*/
+table {
+    width: 98%;
+    border-spacing: 20px; 
+    table-layout: fixed; 
+    padding: 20px;
+}
+
+
+th {
+	color: #092909;
+    text-align: center;
+    padding: 10px;
+	font-family: 'Staatliches', Sans Serif;
+	font-size: 30px;
+}
+
+td {
+	
+	color: white;
+    width: 100%;
+    height: 50px;
+    padding: 0px 10px 18px;
+	font-family: 'Red Hat Display', Sans Serif;
+	text-align: center;
+	transition: transform 0.5s;
+}
+
+td:hover {
+	transform: translateY(-10px);
+	padding: 10px;
+	background-color: #092909;
+}
+
+
+.product img {
+	width: 50%; 
+	height: 25%; 
+	background-color: white;
+}
